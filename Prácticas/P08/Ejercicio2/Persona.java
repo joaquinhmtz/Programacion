@@ -2,7 +2,8 @@ import java.io.*;
 
 public class Persona { //NOMBRE
 
-	private static String nombre; //ATRIBUTOS //ATRIBUTOS ESTÁTICOS
+	private String nombre; //ATRIBUTOS 
+	private static int num;//ATRIBUTOS ESTÁTICOS
 
 	private InputStreamReader isr = new InputStreamReader(System.in);
 	private BufferedReader br = new BufferedReader(isr);
