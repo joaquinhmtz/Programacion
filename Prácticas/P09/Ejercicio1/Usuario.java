@@ -83,14 +83,4 @@ public class Usuario {
         ("Dirección: "+ this.direccion+"\n")+("Mail: "+this.mail+"\n")+("Nickname: "+this.nickname+"\n")+
         ("Fecha de nacimiento: "+this.fecha+"\n");
 	}
-
-	public void pimpDatos() {
-		System.out.println("Nombre: "+this.nombre);
-		System.out.println("Teléfono: "+this.telefono);
-		System.out.println("Dirección: "+this.direccion);
-		System.out.println("Mail: "+this.mail);
-		System.out.println("Nickname: "+this.nickname);
-		System.out.println("Fecha de nacimiento: "+this.fecha);
-
-	}
 }
